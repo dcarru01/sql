@@ -54,7 +54,8 @@ The store wants to keep customer addresses. Propose two architectures for the CU
 **HINT:** search type 1 vs type 2 slowly changing dimensions. 
 
 ```
-Your answer...
+Architecture 1 could use slowly changing dimensions (SCD) type 1, which overwrites prior entries upon the addition of new data. In this case, we would not be storing our customer's older data, which makes sense if we are actively using the database for sending out flyers etc...
+Architecture 2 could use SCD type 2 where we create a new row for each customer address update, retaining the old address during the update. In this case, we would incorporate a start and end date column to keep track of the more current address. We could use this kind of architecture if we were interested in the demographics of where our customers are shopping from and want to include historical data in that analysis.
 ```
 
 ***
@@ -183,5 +184,7 @@ Consider, for example, concepts of labour, bias, LLM proliferation, moderating c
 
 
 ```
-Your thoughts...
+I think this story highlights the critical role that humans have played and continue to play in the development and proliferation of large language models (LLMS) and neural networks. When discussing these technologies, a lot of attention is paid to things like the 'quality' of the data, or how reliable the source is, but what can sometimes be overlooked is who did the work of generating that data in the first place. This is obviously not some stunning insight, there are several cases in various courts over the question of copyright infringement, but as LLM use becomes increasingly widespread and prolific, it's important to keep this in mind.
+The particular case of outsourcing discussed in this article is a tale as old as time: if you have an undesirable task and want to get it done cheap, exploit workers from a lower/middle income country (LMIC) to do it for you. This also brings to mind the many (perhaps apocryphal) stories of things like the Amazon AI powered grocery stores which were actually an army of workers in Indonesia constantly monitoring the cameras.  It's important to look at who is profiting from these LLMs and realize how they are built on the exploitation of desperate people just trying to survive.
+The final key element of this blog that struck me is this concept of labelling and the idea that having a person assign a label to an image is somehow a ground truth. There are countless studies on unconcious bias that have existed for decades that provide a cautionary tale for this approach, but nobody wants to slow down 'progress' in the name of 'avoiding blatant discrimination.' That may be an exaggeration, but as these systems become more and more integrated into our daily lives, the potential for harm from bias (unconcious or otherwise) increases exponentially. Often technology is praised because it provides some kind of 'truth' or fundemental level of 'correctness', but everything from the way models are built, or trained, or where the data is sourced from, introduces some 'human' element into these conclusions, for better or (more often) worse.
 ```
