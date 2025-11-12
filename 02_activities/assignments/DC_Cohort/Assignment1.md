@@ -205,5 +205,9 @@ Consider, for example, concepts of fariness, inequality, social structures, marg
 
 
 ```
-Your thoughts...
+I think that in many ways that tech and data systems are still one of the most underappreciated ways in which systemic racism and discrimination are explicitly allowed to flourish. Perhaps more concerning, is I think that a lot of this discrimination is subconciously driven by unconcious bias. The Pakistan example is obviously an extreme one, but similar issues undoubtedly can be found in databases in Canada with regards to gender identity and sexuality. A seemingly minor example I encountered recently involved creating a profile for a soccer league where the options for 'Gender' were 'Male', 'Female' or 'NA'. While whoever provided the options for that particular dropdown probably thought NA would cover their bases, it is exclusionary language that makes non-binary or genderfluid individuals feel unwelcome. 
+
+A seperate but related issue that comes up in my research is genetic databases. This may not be as much of an issue with how the data is stored but instead of how it is collected and what data is prioritized. The majority of human genomes we have available are by and large from white men living in North America and Europe. However this inqeuity extends beyond human genetics; I study antimicrobial resistance in sexually transmitted infections and struggle to find clinical samples from women, and especially women in lower and middle income countries. 
+
+I believe that as somebody that wants to be a data scientist and work with data that it is important that the field recognizes it's culpability in creating inequity. I think that concerns over representation and fairness extend from everything to digital IDs, to facial recognition software, to soccer teams. 
 ```
